@@ -1,0 +1,73 @@
+/*Styles section welcome*/
+.sectionWelcome {
+    padding-top: 7%;
+}
+
+.welcomeSection {
+    color: #777;
+    background-color: white;
+    text-align: center;
+    padding: 50px 80px;
+
+}
+
+.welcomeTitle {
+    text-transform: uppercase;
+}
+
+.welcomeParagraph {
+    text-align: center;
+}
+
+/*Styles section parallax*/
+/* .parallaxMarcas {
+    background-image: url("https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/banner/533702.jpg");
+    background-color: black;
+    background-attachment: fixed;
+    background-position-y: -0.2;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+} */
+
+.sectionParallaxMarcas {
+    background-image: url("https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/banner/533702.jpg");
+    background-color: black;
+    background-attachment: fixed;
+    background-position-y: -0.2;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+    transition: 0s linear;
+    transition-property: background-position;
+}
+
+.nuestrasMarcas {
+    background: linear-gradient(45deg, rgb(218 239 169), rgb(14 127 214 / 43%) 100%);
+    height: 100%;
+}
+
+.nuestrasMarcas-title {
+    text-transform: uppercase;
+}
+
+.border-marcas {
+    border-radius: 1vh;
+}
+
+/*Styles our services*/
+.nuestrosServicios-section {
+    color: #777;
+    background-color: white;
+    text-align: center;
+}
+
+.nuestrosServicios-title {
+    text-transform: uppercase;
+}

@@ -1,0 +1,11 @@
+@media (max-width: 992px) {
+    /* nav styling*/
+    .bg-dark-response {
+      --mdb--bg-opacity: 1;
+      background-color: rgba(51,45,45,var(--mdb--bg-opacity));
+    }
+    .bg-dark-response {
+      --mdb-bg-opacity: 1;
+      background-color: rgba(var(--mdb-dark-rgb),var(--mdb-bg-opacity))!important;
+    }
+}
