@@ -1,10 +1,10 @@
 /* Carousel styling */
-.introCarousel,
+/* .introCarousel,
 .carousel-inner,
 .carousel-item,
 .carousel-item.active {
-    /*height: 100vh;*/
-}
+    height: 100vh;
+} */
 
 /* .introCarousel .carousel-item {
     background-repeat: no-repeat;
@@ -27,6 +27,10 @@
     background-color:rgba(0, 0, 0, 0.6);
 }
 
+.carousel-amg {
+    background: linear-gradient( 45deg, rgb(9 13 18 / 98%), rgb(14 127 214 / 43%) 100% );
+}
+
 /*Media queries*/
 @media (min-width: 992px) {
 
@@ -34,11 +38,11 @@
     .introCarousel {
         margin-top: -58.59px;
     }
-/*
+
     .introCarousel,
     .carousel-inner,
     .carousel-item,
     .carousel-item.active {
-        height: 50vh;
-    } */
+        height: 80vh;
+    } 
 }

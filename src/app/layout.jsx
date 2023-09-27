@@ -1,5 +1,6 @@
 import { Inter,Open_Sans,Quicksand } from 'next/font/google'
 import Navbar from '@/components/Navbar'
+import Footer from '@/components/footer'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import "@fortawesome/fontawesome-free/css/all.min.css"
 import './globals.css'
@@ -14,8 +15,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={quicksand.className}>
-        <Navbar></Navbar>
+        <Navbar />
         {children}
+        <Footer />
+        
       </body>
     </html>
   )
