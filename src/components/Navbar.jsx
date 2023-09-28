@@ -38,7 +38,6 @@ export default function Navbar() {
       } else {
         setUser(true)
       }
-      console.log(myUser)
     })
   }, [user])
 

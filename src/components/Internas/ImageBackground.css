@@ -1,0 +1,12 @@
+.down {
+    cursor: pointer;
+}
+
+/*Media queries*/
+@media (min-width: 992px) {
+
+    /* Carousel styling */
+    .introBanner {
+        margin-top: -58.59px;
+    }
+}

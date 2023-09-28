@@ -215,8 +215,8 @@ export default function SocialClub() {
             <li class="d-flex justify-content-between mb-4">
               <MDBCard className="w-100">
                 <MDBCardHeader className="d-flex justify-content-between p-3">
-                  <p class="fw-bold mb-0">Lara Croft</p>
-                  <p class="text-muted small mb-0">
+                  <p className="fw-bold mb-0">Lara Croft</p>
+                  <p className="text-muted small mb-0">
                     <MDBIcon far icon="clock" /> 13 mins ago
                   </p>
                 </MDBCardHeader>
