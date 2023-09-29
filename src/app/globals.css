@@ -3,3 +3,23 @@
     font-family: var(--font-Quicksand);
 }
 
+/* Estilos para el botón de Subir */
+.boton-subir {
+    display: none;
+    position: fixed;
+    bottom: 214px;
+    right: 50px;
+    z-index: 999;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.boton-subir:hover {
+    background-color: #0056b3;
+}

@@ -12,7 +12,6 @@ export default function Porsche() {
   const rutaUno = "Home"
   const rutaDos = "Nuestras marcas top"
   const rutaTres = "Porsche"
-  const idbread = "containerPBread"
   const dataVideoBackground = dataPorsche.videoBackground
   const dataContent = dataPorsche.contenido
   const dataGalery = dataPorsche.gallery
@@ -31,7 +30,6 @@ export default function Porsche() {
         rutaUno={rutaUno} 
         rutaDos={rutaDos} 
         rutaTres={rutaTres}
-        idbread={idbread}
       />
       <div id="containerP" className="container">
         <ContenidoInterna 
@@ -43,7 +41,6 @@ export default function Porsche() {
           cardContent={dataContent.cardContent}
           poster={dataContent.poster}
           srcVideoCard={dataContent.srcVideo}
-
         />
         <GaleriaVehiculos dataGalery={dataGalery} />
       </div>

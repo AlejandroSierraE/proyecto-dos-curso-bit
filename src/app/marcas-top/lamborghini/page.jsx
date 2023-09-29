@@ -12,7 +12,6 @@ export default function Lamborghini() {
   const rutaUno = "Home"
   const rutaDos = "Nuestras marcas top"
   const rutaTres = "Lamborghini"
-  const idbread = "containerLBread"
   const dataImageBackground = dataLambo.imageBackground
   const dataContent = dataLambo.contenido
   const dataGalery = dataLambo.gallery
@@ -30,7 +29,6 @@ export default function Lamborghini() {
         rutaUno={rutaUno} 
         rutaDos={rutaDos} 
         rutaTres={rutaTres}
-        idbread={idbread}
       />
       <div id="containerL" className="container">
         <ContenidoInterna 

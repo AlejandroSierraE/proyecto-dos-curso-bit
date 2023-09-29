@@ -4,6 +4,7 @@ import Footer from '@/components/footer'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import "@fortawesome/fontawesome-free/css/all.min.css"
 import './globals.css'
+import IrArriba from '@/components/IrArriba'
 const quicksand = Quicksand({subsets: ['latin','latin-ext','vietnamese']})
 
 export const metadata = {
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer />
+        <IrArriba />
         
       </body>
     </html>

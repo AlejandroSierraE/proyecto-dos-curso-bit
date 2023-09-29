@@ -10,7 +10,6 @@ export default function Ferrari() {
   const rutaUno = "Home"
   const rutaDos = "Nuestras marcas top"
   const rutaTres = "Ferrari"
-  const idbread = "containerFBread"
   const dataVideoBackground = dataFerrari.videoBackground
   const dataContent = dataFerrari.contenido
   const dataGalery = dataFerrari.gallery
@@ -29,7 +28,6 @@ export default function Ferrari() {
         rutaUno={rutaUno} 
         rutaDos={rutaDos} 
         rutaTres={rutaTres}
-        idbread={idbread}
       />
       <div id="containerF" className="container">
         <ContenidoInterna 

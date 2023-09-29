@@ -43,7 +43,7 @@ export default function ContactUs() {
                                 {/* <!-- newsletter checkbox --> */}
                                 <MDBRow className='mb-4 justify-content-center'>
                                     <MDBCol md='6' className='d-flex justify-content-center'>
-                                        <MDBCheckbox className=' mb-3 mb-md-0' defaultChecked label='Subscribe to our newsletter' id='flexCheckChecked' value='' />
+                                        <MDBCheckbox className=' mb-3 mb-md-0' defaultChecked label='Suscribete a nuestro periodico' id='flexCheckChecked' value='' />
                                     </MDBCol>
                                 </MDBRow>
                                 <MDBBtn type='submit' block className='mb-4'>Enviar</MDBBtn>

@@ -8,12 +8,12 @@ import {
 import { usePathname } from 'next/navigation'
 import Link from 'next/link';
 
-export default function BreadCrumb({titulo,rutaUno,rutaDos,rutaTres,idbread}) {
+export default function BreadCrumb({titulo,rutaUno,rutaDos,rutaTres}) {
     const pathname = usePathname()
     return (
         <>
             <div className='p-5 bg-light mb-4'>
-                <MDBContainer id={idbread}>
+                <MDBContainer id={"containerBread"}>
                     <h1>{titulo}</h1>
                     <MDBBreadcrumb bold>
                         <MDBBreadcrumbItem>
