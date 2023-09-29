@@ -22,7 +22,7 @@ import {
   MDBCollapse,
 } from 'mdb-react-ui-kit';
 
-import './Navbar.css'
+import '@/components/Navbar/Navbar.css'
 
 export default function Navbar() {
   const [showNavColorSecond, setShowNavColorSecond] = useState(false);

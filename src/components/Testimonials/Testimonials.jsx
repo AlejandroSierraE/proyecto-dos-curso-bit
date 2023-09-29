@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Testimonials.css"
+import "@/components/Testimonials/Testimonials.css"
 
 export default function Testimonials() {
   return (

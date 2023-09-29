@@ -1,6 +1,6 @@
 import { Inter,Open_Sans,Quicksand } from 'next/font/google'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/footer'
+import Navbar from '@/components/Navbar/Navbar'
+import Footer from '@/components/Footer/Footer'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import "@fortawesome/fontawesome-free/css/all.min.css"
 import './globals.css'

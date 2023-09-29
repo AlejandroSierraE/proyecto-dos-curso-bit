@@ -1,9 +1,9 @@
 'use client'
-import Carousel from "@/components/carousel"
-import MarcasTop from "@/components/marcasTop"
-import Services from "@/components/Services"
-import Testimonials from "@/components/Testimonials"
-import ContactUs from "@/components/ContactUs"
+import Carousel from "@/components/Carousel/Carousel"
+import MarcasTop from "@/components/MarcasTop/MarcasTop"
+import Services from "@/components/ServicesH/Services"
+import Testimonials from "@/components/Testimonials/Testimonials"
+import ContactUs from "@/components/ContactUs/ContactUs"
 
 import "./page.css"
 

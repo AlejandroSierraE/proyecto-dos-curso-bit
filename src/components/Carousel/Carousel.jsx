@@ -2,7 +2,7 @@
 import { React } from 'react';
 import carouselDataItems from '@/data/carouselData'; 
 import { MDBCarousel,MDBCarouselItem } from 'mdb-react-ui-kit';
-import './Carousel.css'
+import '@/components/Carousel/Carousel.css'
 
 export default function Carousel() {
 
