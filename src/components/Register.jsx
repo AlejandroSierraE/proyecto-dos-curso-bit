@@ -6,13 +6,10 @@ import {
     MDBModalDialog,
     MDBModalContent,
     MDBModalHeader,
-    MDBModalTitle,
     MDBModalBody,
-    MDBModalFooter,
     MDBInput,
     MDBIcon,
 } from 'mdb-react-ui-kit';
-import { useRouter } from "next/navigation"
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth"
 import firebase from '@/data/Firebase/firebaseAuth'
 
@@ -23,35 +20,63 @@ export default function Register() {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const auth = getAuth(firebase)
-    const router = useRouter()
 
     const handleCreateUser = async () => {
-        try {
-            createUserWithEmailAndPassword(auth, email, password)
-                .then((userCredential) => {
-                    Swal.fire(
-                        'Done!',
-                        `El usuario ${userCredential.user.email} ha sido creado, puedes iniciar sesión ahora`,
-                        'success'
-                    ).then(() => {
-                        toggleShow()
-                    })
-                }).catch(error => {
-                    console.log(error.message)
-                    Swal.fire(
-                        'Ups!',
-                        `Error: ${error.message} Code: ${error.code}`,
-                        'error'
-                    )
+
+        createUserWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                Swal.fire(
+                    'Done!',
+                    `El usuario ${userCredential.user.email} ha sido creado, puedes iniciar sesión ahora`,
+                    'success'
+                ).then(() => {
+                    toggleShow()
                 })
-        } catch (error) {
-            console.log(error);
-            Swal.fire(
-                'Ups!',
-                `Error: ${error.message}`,
-                'error'
-            )
-        }
+            }).catch(error => {
+                switch (error.code) {
+                    case "auth/weak-password":
+                        Swal.fire(
+                            'Ups!',
+                            `Error: La contraseña debe tener al menos 6 caracteres.`,
+                            'error'
+                        )
+                        break;
+                    case "auth/missing-password":
+                        Swal.fire(
+                            'Ups!',
+                            `Error: La contraseña no puede estar vacía.`,
+                            'error'
+                        )
+                        break;
+                    case "auth/email-already-in-use":
+                        Swal.fire(
+                            'Ups!',
+                            `Error: El correo ya se encuentra en uso.`,
+                            'error'
+                        )
+                        break;
+                    case "auth/invalid-email":
+                        Swal.fire(
+                            'Ups!',
+                            `Error: El correo que intenta ingresar no es permitido.`,
+                            'error'
+                        )
+                        break;
+                    case "auth/missing-email":
+                        Swal.fire(
+                            'Ups!',
+                            `Error: El correo no puede estar vacío.`,
+                            'error'
+                        )
+                        break;
+
+                    default:
+                        console.error(`Error: ${error.message} Code: ${error.code}`)
+                        break;
+                }
+
+            })
+
     }
 
     return (

@@ -22,7 +22,7 @@ export default function SocialClub() {
       <MDBRow>
         <MDBCol md="6" lg="5" xl="4" className="mb-4 mb-md-0">
           <h5 className="font-weight-bold mb-3 text-center text-lg-start">
-            Member
+            Miebro
           </h5>
 
           <MDBCard>
@@ -43,7 +43,7 @@ export default function SocialClub() {
                       <div className="pt-1">
                         <p className="fw-bold mb-0">John Doe</p>
                         <p className="small text-muted">
-                          Hello, Are you there?
+                          ¿Hola estás ahí?
                         </p>
                       </div>
                     </div>
@@ -65,7 +65,7 @@ export default function SocialClub() {
                       <div className="pt-1">
                         <p className="fw-bold mb-0">Danny Smith</p>
                         <p className="small text-muted">
-                          Lorem ipsum dolor sit.
+                          El test drive fue de locos...
                         </p>
                       </div>
                     </div>
@@ -86,7 +86,7 @@ export default function SocialClub() {
                       <div className="pt-1">
                         <p className="fw-bold mb-0">Alex Steward</p>
                         <p className="small text-muted">
-                          Lorem ipsum dolor sit.
+                          Compre el pagani !...
                         </p>
                       </div>
                     </div>
@@ -107,7 +107,7 @@ export default function SocialClub() {
                       <div className="pt-1">
                         <p className="fw-bold mb-0">Ashley Olsen</p>
                         <p className="small text-muted">
-                          Lorem ipsum dolor sit.
+                          Tengo una cons....
                         </p>
                       </div>
                     </div>
@@ -128,7 +128,7 @@ export default function SocialClub() {
                       <div className="pt-1">
                         <p className="fw-bold mb-0">Kate Moss</p>
                         <p className="small text-muted">
-                          Lorem ipsum dolor sit.
+                          Tienes conocimient...
                         </p>
                       </div>
                     </div>
@@ -149,7 +149,7 @@ export default function SocialClub() {
                       <div className="pt-1">
                         <p className="fw-bold mb-0">Lara Croft</p>
                         <p className="small text-muted">
-                          Lorem ipsum dolor sit.
+                        Los Rolls-Royce son un símbolo ..
                         </p>
                       </div>
                     </div>
@@ -170,7 +170,7 @@ export default function SocialClub() {
                       <div className="pt-1">
                         <p className="fw-bold mb-0">Brad Pitt</p>
                         <p className="small text-muted">
-                          Lorem ipsum dolor sit.
+                          soy el brad jeje .
                         </p>
                       </div>
                     </div>
@@ -190,24 +190,22 @@ export default function SocialClub() {
         <MDBCol md="6" lg="7" xl="8">
           <MDBTypography listUnStyled>
             <li className="d-flex justify-content-between mb-4">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-6.webp"
+            <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-5.webp"
                 alt="avatar"
-                className="rounded-circle d-flex align-self-start me-3 shadow-1-strong"
+                className="rounded-circle d-flex align-self-start ms-3 shadow-1-strong"
                 width="60"
               />
               <MDBCard>
                 <MDBCardHeader className="d-flex justify-content-between p-3">
-                  <p className="fw-bold mb-0">Brad Pitt</p>
+                  <p className="fw-bold mb-0">Lara Croft</p>
                   <p className="text-muted small mb-0">
                     <MDBIcon far icon="clock" /> 12 mins ago
                   </p>
                 </MDBCardHeader>
                 <MDBCardBody>
                   <p className="mb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  ¡Hola Brad! ¿Has visto el nuevo modelo de Tesla? Es absolutamente impresionante.😍
                   </p>
                 </MDBCardBody>
               </MDBCard>
@@ -215,47 +213,66 @@ export default function SocialClub() {
             <li class="d-flex justify-content-between mb-4">
               <MDBCard className="w-100">
                 <MDBCardHeader className="d-flex justify-content-between p-3">
-                  <p className="fw-bold mb-0">Lara Croft</p>
+                  <p className="fw-bold mb-0">Brad Pitt</p>
                   <p className="text-muted small mb-0">
                     <MDBIcon far icon="clock" /> 13 mins ago
                   </p>
                 </MDBCardHeader>
                 <MDBCardBody>
                   <p className="mb-0">
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium.
+                  ¡Hola Lara! Sí, lo he visto. Es un verdadero avance en la industria automotriz. Pero, ¿qué opinas de los deportivos italianos? Siempre he soñado con un Lamborghini.
                   </p>
                 </MDBCardBody>
               </MDBCard>
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-5.webp"
-                alt="avatar"
-                className="rounded-circle d-flex align-self-start ms-3 shadow-1-strong"
-                width="60"
-              />
-            </li>
-            <li className="d-flex justify-content-between mb-4">
               <img
                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-6.webp"
                 alt="avatar"
                 className="rounded-circle d-flex align-self-start me-3 shadow-1-strong"
                 width="60"
               />
+            </li>
+            <li className="d-flex justify-content-between mb-4">
+            <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-5.webp"
+                alt="avatar"
+                className="rounded-circle d-flex align-self-start ms-3 shadow-1-strong"
+                width="60"
+              />
+              
               <MDBCard>
                 <MDBCardHeader className="d-flex justify-content-between p-3">
-                  <p className="fw-bold mb-0">Brad Pitt</p>
+                  <p className="fw-bold mb-0">Lara Croft</p>
                   <p className="text-muted small mb-0">
-                    <MDBIcon far icon="clock" /> 10 mins ago
+                    <MDBIcon far icon="clock" /> 14 mins ago
                   </p>
                 </MDBCardHeader>
                 <MDBCardBody>
                   <p className="mb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  ¡Totalmente de acuerdo! Los Lamborghini son increíbles. Pero no puedo evitar enamorarme de la elegancia de los Rolls-Royce. ¿Has tenido la oportunidad de ver alguno de cerca?
                   </p>
                 </MDBCardBody>
               </MDBCard>
+            </li>
+            <li class="d-flex justify-content-between mb-4">
+              <MDBCard className="w-100">
+                <MDBCardHeader className="d-flex justify-content-between p-3">
+                  <p className="fw-bold mb-0">Brad Pitt</p>
+                  <p className="text-muted small mb-0">
+                    <MDBIcon far icon="clock" /> 15 mins ago
+                  </p>
+                </MDBCardHeader>
+                <MDBCardBody>
+                  <p className="mb-0">
+                  Los Rolls-Royce son un símbolo de lujo y prestigio. Aún no he tenido la oportunidad de ver uno en persona, pero espero que algún día pueda conducir uno. 😄
+                  </p>
+                </MDBCardBody>
+              </MDBCard>
+              <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-6.webp"
+                alt="avatar"
+                className="rounded-circle d-flex align-self-start me-3 shadow-1-strong"
+                width="60"
+              />
             </li>
             <li className="bg-white mb-3">
               <MDBTextArea label="Message" id="textAreaExample" rows={4} />
